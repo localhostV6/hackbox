@@ -17,7 +17,7 @@ workers_dev = false
 # middleboxes; the apex is the durable fix). The WS endpoint is the minimal
 # wss://hackbox.ca/r/<code>; routing is handled by hand in src/index.ts and
 # matched by the client SDK's partysocket basePath.
-routes = [{ pattern = "hackbox.ca/r/*", zone_name = "hackbox.ca" }]
+routes = [{ pattern = "yes.isronniefat.com/r/*", zone_name = "isronniefat.com" }]
 
 [durable_objects]
 bindings = [{ name = "Main", class_name = "Room" }]
@@ -43,7 +43,7 @@ deleted_classes = ["Registry"]
 [[d1_databases]]
 binding = "DB"
 database_name = "hackbox"
-database_id = "a49f51a3-4b43-4f2c-8dc5-2220d9f58df9"
+database_id = "4727ea32-a592-4706-be49-d6e01bd4018d"
 
 # Daily retention sweep for the `messages` log — the `scheduled` handler in
 # src/index.ts deletes rows past the 30-day window so D1 stays under its size

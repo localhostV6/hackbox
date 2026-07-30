@@ -13,7 +13,7 @@ workers_dev = false
 # Cloudflare Access (Zero Trust) application — it can create rooms and list every
 # active room, and there is no auth in the Worker code by design. The Nuxt app is
 # served under the /admin base path (see app.baseURL in nuxt.config.ts).
-routes = [{ pattern = "hackbox.ca/admin*", zone_name = "hackbox.ca" }]
+routes = [{ pattern = "yes.isronniefat.com/admin*", zone_name = "isronniefat.com" }]
 
 [assets]
 directory = "./.output/public"
@@ -36,7 +36,7 @@ service = "hackbox-relay"
 [[d1_databases]]
 binding = "DB"
 database_name = "hackbox"
-database_id = "a49f51a3-4b43-4f2c-8dc5-2220d9f58df9"
+database_id = "4727ea32-a592-4706-be49-d6e01bd4018d"
 
 [observability]
 enabled = true

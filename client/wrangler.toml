@@ -7,7 +7,7 @@ workers_dev = true
 # survives Worker renames). The api (hackbox.ca/api/*) and relay (hackbox.ca/r/*)
 # routes are more specific and take precedence, so this catch-all serves only the
 # SPA for everything else.
-routes = [{ pattern = "hackbox.ca", custom_domain = true }]
+routes = [{ pattern = "yes.isronniefat.com", custom_domain = true }]
 
 # Build the SPA before deploying. With this Worker's root directory set to
 # client/ in Workers Builds, dependencies (including devDeps like vite) are
